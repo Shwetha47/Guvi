@@ -10,7 +10,7 @@ for(i=0;i<n;i++)
 flag=0;
 for(j=0;j<n;j++)
 {
-if(a[i]==a[j])
+if(i!=j&&a[i]==a[j])
 {
 flag=1;
 break;
