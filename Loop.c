@@ -5,7 +5,7 @@ long long int n,i;
 scanf("%lld",&n);
 for (i=1;i,i<=n;i++)
 {
-printf("Hello");
+printf("Hello\n");
 }
 }
 
