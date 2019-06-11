@@ -30,7 +30,7 @@ break;
 }
 }
 if(flag==0)
-printf("%d",a[i]);
+printf("%d ",a[i]);
 }
 
 }
