@@ -7,7 +7,7 @@ for(i=0;i<n;i++)
 scanf("%lld",&a[i]);
 for(i=0;i<n;i++)
 {
-flag=1;
+flag=0;
 for(j=0;j<n;j++)
 {
 if(a[i]==a[j])
@@ -16,7 +16,7 @@ flag=1;
 break;
 }
 }
-if(flag==1)
+if(flag==0)
 {
 printf("%lld",a[i]);
 break;
