@@ -3,8 +3,9 @@ int main()
 {
 long long int n;
 scanf("%lld",&n);
-if(n%2==0)
+if(n>=0&&n%2==0)
 printf("Even");
-else printf("Odd");
+else if(n>0&&n%2==1)printf("Odd");
+  else printf("Invalid");
 }
 
