@@ -32,7 +32,8 @@ break;
 if(flag==0)
 printf("%d ",a[i]);
 }
-
+if(flag==1)
+  printf("unique");
 }
 
 
