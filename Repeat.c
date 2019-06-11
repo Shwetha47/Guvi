@@ -17,8 +17,10 @@ printf("%lld",a[i]);
 break;
 }
 }
-if(flag==0)
-printf("unique");
+if(flag==1)
+  break;
 }
+  if(flag==0)
+printf("unique");
 }
 
