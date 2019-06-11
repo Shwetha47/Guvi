@@ -2,9 +2,13 @@
 #include<string.h>
 int main()
 {
-char a[1000];
-int i;
+char a[1000],r[1000];
+int i,j=0;
 scanf("%s",a);
-for(i=strlen(a);i>=0;i--)
-printf("%c",a[i]);
+for(i=strlen(a)-1;i>=0;i--)
+{
+c[j]=a[i];
+  j++;
+}
+  printf("%s",r);
 }
