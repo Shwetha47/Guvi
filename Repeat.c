@@ -20,4 +20,5 @@ break;
 if(flag==0)
 printf("unique");
 }
+}
 
